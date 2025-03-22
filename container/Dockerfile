@@ -21,4 +21,4 @@ RUN curl https://sh.rustup.rs -sSf | sh -s -- -y --default-toolchain nightly-202
 RUN rustup component add rust-src
 RUN cargo install cargo-xbuild
 
-RUN git clone --recursive https://github.com/intel/MigTD.git
+RUN git clone --recursive https://github.com/yupavlen-ms/MigTD.git
