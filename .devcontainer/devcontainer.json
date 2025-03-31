@@ -19,9 +19,9 @@
         }
     },
 
-    // Allow /dev/kvm access by setting privileged to true.
+    // Allow /dev/kvm access.
     "privileged": true,
 
-    // Before build.
-    "updateContentCommand": "./sh_script/preparation.sh",
+    // Once before building.
+    "postCreateCommand": "./sh_script/preparation.sh",
 }
