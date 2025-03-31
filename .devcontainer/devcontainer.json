@@ -6,15 +6,8 @@
     },
 
     "features": {
-        "ghcr.io/devcontainers/features/rust:1": {
-            "version": "1.83.0",
-            "profile": "default",
-            "targets": "x86_64-unknown-none"
-        },
-
-        "ghcr.io/devcontainers/features/sshd:1": {},
-        
-        "ghcr.io/devcontainers/features/python:1": {}
+        // Everything else should be already added by Dockerfile.
+        "ghcr.io/devcontainers/features/sshd:1": {}
     },
 
     // Add rust-analyzer by default.
