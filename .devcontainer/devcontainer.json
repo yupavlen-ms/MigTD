@@ -1,5 +1,7 @@
 // DevContainer VSCode extension. Can be used for GitHub CodeSpaces.
 {
+    "name": "mig_td_vscode",
+
     // Use provided Dockerfile.
     "build": {
         "dockerfile": "../container/Dockerfile",
