@@ -45,6 +45,7 @@ zerocopy = { version = "0.7", features = ["derive"] }
 
 minicov = { version = "0.2", default-features = false, optional = true }
 td-benchmark = { path = "../../deps/td-shim/devtools/td-benchmark", default-features = false,  optional = true }
+igvm = "0.3.4"
 
 [features]
 default = ["virtio-vsock"]
